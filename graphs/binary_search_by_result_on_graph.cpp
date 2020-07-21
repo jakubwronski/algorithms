@@ -1,5 +1,10 @@
 //using binary search on graph to solve this problem:
-//https://sio2.staszic.waw.pl/c/wwi-2018-grupa-2/s/8269/source/
+//https://sio2.staszic.waw.pl/c/wwi-2018-grupa-2/p/ast/
+/*
+ *given the undirected, unweightened graph, with each node having additional height parameter 
+ *return the lowest maximum height that would need to be gone throught while traveling from node 1 to n
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

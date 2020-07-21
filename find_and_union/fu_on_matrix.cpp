@@ -1,5 +1,11 @@
 //using find and union algorithm to solve this problem:
 //https://sio2.staszic.waw.pl/c/wwi-2018-grupa-2/p/cho/
+/*
+ * given matrix n x m with every cell restricted by default handle 2 types of queries:
+ * - mark cell (xi,yi) as safe
+ * - tell if it's possible to go from cell (xi,yi) to cell (xj,yj) only stepping on safe cells
+ *   assuming that travel is only possible in 4 directions (not through cells' corners)
+*/
 #include <bits/stdc++.h>
 
 using namespace std;

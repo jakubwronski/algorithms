@@ -1,5 +1,10 @@
 //using latest common ancestor algorithm to calculate distance between nodes in a tree
 //https://sio2.staszic.waw.pl/c/wwi-2018-grupa-2/p/slo/
+/*
+ *given weighted undirected graph, handle queries of this type:
+ * -what is a distance between node a and b?
+*/
+
 
 #include <bits/stdc++.h>
 

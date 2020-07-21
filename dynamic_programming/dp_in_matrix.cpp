@@ -1,6 +1,10 @@
 //using dyanmic programming to solve this problem:
 //https://sio2.staszic.waw.pl/c/wwi-2018-grupa-2/p/zep/
-
+/*
+ *given the matrix of ints (magic points) n x m, with starting point in (1,1), and finish
+ *point in (n,m) with maximum amount of steps possible being n+m-2 return maximum amount
+ *of magic possible to collect during journey through the matrix
+*/
 #include <bits/stdc++.h>
 
 using namespace std;

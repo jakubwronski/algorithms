@@ -1,10 +1,13 @@
 //using binary search by result and game theory to solve this problem:
 //https://sio2.staszic.waw.pl/c/wwi-2018-grupa-2/p/rob/
+/*
+ *for given numbers (plants) and their daily growing rates return the height of a biggest number 
+ *(highest plant) after k days assuming optimal playing (cutting plants)
+*/
 
 #include <bits/stdc++.h>
 
 using namespace std;
-
 
 const long long N = (long long) 1e12+3;
 const int K = 1000004;

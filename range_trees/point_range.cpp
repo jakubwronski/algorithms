@@ -1,6 +1,11 @@
 //using range tree point-range data structure to solve this problem:
 //https://sio2.staszic.waw.pl/c/wwi-2018-grupa-2/p/sli/
-//basically queries are of this type: how many numbers in range (l,r) are divisible by {1,...,5}
+
+/*
+ *given initially empy array of integers handle queries of this type:
+ * -add x to n cell of the array
+ * -how many cells between a and b contain number divisible by k?
+ */
 
 #include <bits/stdc++.h>
 

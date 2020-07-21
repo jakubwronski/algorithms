@@ -1,5 +1,10 @@
 //using binary search to solve this task:
 //https://sio2.staszic.waw.pl/c/algorytmika-od-podstaw-20182019/p/kra/1063/
+/*
+ *given shape of a toy (width of each level), as well as size and order of rings (width) 
+ *that we want to put inside this toy, return the level on wich the last ring will stop
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

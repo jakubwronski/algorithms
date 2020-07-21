@@ -1,6 +1,15 @@
 //using Dijkstra's algorithm and concept of graph's dissection to solve this problem:
 //https://sio2.staszic.waw.pl/c/wwi-2018-grupa-2/p/pod/
 //doubling nodes of the graph at posutions [i+n] in G array
+
+/*
+ * given weightened, undirected graph with each node holding additional waiting time value
+ * (train connections between cities, time needed to travel, and time in each city needed to buy a ticket)
+ * return the minimal amount of time that it would take to travel from city a to b if it is allowed to skip
+ * waiting in one, chosen city
+*/
+
+
 #include <bits/stdc++.h>
 
 using namespace std;

@@ -1,6 +1,11 @@
 //using strongly connected components to slove this problem:
 //https://sio2.staszic.waw.pl/c/wwi-2018-grupa-2/p/nie/
 
+/*
+ *given a directed graph handle queries of this type:
+ * -is it possible to go from node a to b and from node b to a?
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

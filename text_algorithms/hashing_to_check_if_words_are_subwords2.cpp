@@ -1,5 +1,11 @@
 //using hashing technique to check if word is a "double subword" in this problem:
 //https://sio2.staszic.waw.pl/c/wwi-2018-grupa-2/p/slo1/
+/*
+ *given the word a handle queries of this type:
+ * -is subword from range [x,y] of word a double subword?
+*/
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
